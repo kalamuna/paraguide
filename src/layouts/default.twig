@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>ParaGuide</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul id="navigation">
+                    {% for item in navigation %}
+                        <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+                    {% endfor %}
+                    </ul>
+
+                    {{ contents }}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

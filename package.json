@@ -1,0 +1,23 @@
+{
+  "name": "paraguide",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "kalastatic build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalamuna/paraguide.git"
+  },
+  "author": "Kalamuna (http://kalamuna.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalamuna/paraguide/issues"
+  },
+  "homepage": "https://github.com/kalamuna/paraguide#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "kalastatic": "0.0.6"
+  }
+}

@@ -1,0 +1,15 @@
+---
+# ParaGuide CSS
+
+# Make sure that Bootstrap CSS is available.
+includePaths:
+  - node_modules/bootstrap/dist/css
+---
+
+/**
+ * Paraguide's CSS
+ */
+
+// Bring in Bootstrap
+// @todo Switch to Bootstrap 4? bootstrap-sass-official?
+@import "bootstrap";

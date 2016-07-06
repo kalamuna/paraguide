@@ -1,0 +1,27 @@
+/*
+Button
+
+Displays a button on the page.
+
+#### Parameters
+
+- `title` The text to display in the button.
+- `href` The link to point the button to.
+- `active` Whether or not the button will be the Active state.
+- `size` sm, md or lg
+- `style` default, primary, success, etc
+
+#### Usage
+
+``` twig
+{# Twig #}
+{% include 'path/to/button.twig' with { title: 'Hello World!' } %}
+
+{# Partials #}
+{% partial('button', {title: 'Hello World!'}) %}
+```
+
+Markup: button-example.twig
+
+Styleguide Partials.button
+*/

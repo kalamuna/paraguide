@@ -1,0 +1,29 @@
+{% if not classes %}
+  {% set classes = [] %}
+{% endif %}
+
+{% set classes = classes|merge(['btn']) %}
+
+{% if style %}
+  {% set classes = classes|merge(['btn-' ~ style]) %}
+{% else %}
+  {% set classes = classes|merge(['btn-default']) %}
+{% endif %}
+
+{% if size %}
+  {% set classes = classes|merge(['btn-' ~ size]) %}
+{% endif %}
+
+{% if active %}
+  {% set classes = classes|merge(['active']) %}
+{% endif %}
+
+{% if disabled %}
+  {% set disabled = ' disabled="disabled"' %}
+{% endif %}
+
+{% if href %}
+	<a role="button" class="{{ classes|join(' ') }}" href="{{ href }}"{{ disabled }}>{{ title }}</a>
+{% else %}
+	<button class="{{ classes|join(' ') }}"{{ disabled }}>{{ title }}</button>
+{% endif %}

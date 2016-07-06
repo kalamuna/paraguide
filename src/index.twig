@@ -1,0 +1,15 @@
+---
+layout: layouts/default.twig
+pageTitle: ParaGuide Prototype
+---
+
+<h2>{{ pageTitle }}</h2>
+
+<p>This prototype would demonstrate use of some of the components. Also see the <a href="styleguide">Styleguide</a>.</p>
+
+<p>This is an example of using the <strong>button</strong> partial...</p>
+
+{{ partial('button', {
+	title: 'Read More',
+	style: 'success'
+})}}
