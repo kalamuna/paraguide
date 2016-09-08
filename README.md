@@ -1,6 +1,6 @@
 # ParaGuide
 
-New hawtness concept.
+Build out of a Prototype and a KSS styleguide, through KalaStatic.
 
 ## Usage
 
