@@ -18,6 +18,6 @@
   "homepage": "https://github.com/kalamuna/paraguide#readme",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "kalastatic": "2.0.0"
+    "kalastatic": "2.1.0"
   }
 }
